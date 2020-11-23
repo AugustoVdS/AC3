@@ -6,7 +6,10 @@ app = Flask(__name__)
 @app.route('/')
 
 
-return ("oi")
+
+def alface():
+    alface = "oi rs..."
+    return alface
 
 
 
