@@ -5,6 +5,13 @@ from math import sqrt
 app = Flask(__name__)
 @app.route('/')
 
+
+return ("oi")
+
+
+
+
+"""
 def priminho():
 
     limite = 100
@@ -30,7 +37,7 @@ def priminho():
 
     return primos
 
-
+"""
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
